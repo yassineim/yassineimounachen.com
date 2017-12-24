@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=en>
+  <%= partial :head, :locals => { :current_page => "Contact" } %>
+  <body>
+    <%= partial :header %>
+    <div class="main contact">
+      <div class="column">
+        <h2><%= t(:contact_details) %></h2>
+        <ul class="contact-details">
+          <li class="phone">
+            <% link_to "tel:+212663424808" do %>
+              <%= image_tag "images/phone.svg" %>
+              <span>+212 6 63 42 48 08</span>
+            <% end %>
+          </li>
+          <li class="email">
+            <% link_to "mailto:mail@yassineimounachen.com" do %>
+              <%= image_tag "images/envelope.svg" %>
+              <span>mail@yassineimounachen.com</span>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2><%= t(:me_elsewhere) %></h2>
+        <ul class="me-elsewhere">
+          <li class="github">
+            <% link_to "https://github.com/yassinei" do %>
+              <%= image_tag "images/github.svg" %>
+              <span>yassinei</span>
+            <% end %>
+          </li>
+          <li class="linkedin">
+            <% link_to "https://www.linkedin.com/in/yassine-imounachen" do %>
+              <%= image_tag "images/linkedin.svg" %>
+              <span>yassine-imounachen</span>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

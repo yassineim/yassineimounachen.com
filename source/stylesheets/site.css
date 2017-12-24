@@ -5,22 +5,26 @@ GENERAL
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,600');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Zilla Slab", serif;
-    font-size: 1.2rem;
+  font-family: "Zilla Slab", serif;
+  font-size: 1.2rem;
 }
 
 .main {
-    width: 100%;
-    padding: 0 5%;
-    margin: 0 auto;
+  width: 100%;
+  padding: 0 5%;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.language {
+  text-align: right;
 }
 
 /***************************
@@ -28,13 +32,13 @@ HEADING
 ****************************/
 
 h1.logo {
-    text-align: center;
-    margin-bottom: 0.4rem;
-    font-size: 3rem;
+  text-align: center;
+  margin: 0.4rem 0;
+  font-size: 3rem;
 }
 
 header {
-    margin-bottom: 1.1rem;
+  margin-bottom: 1.1rem;
 }
 
 /***************************
@@ -42,19 +46,19 @@ NAVIGATION
 ****************************/
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 nav ul {
-    list-style: none;
-    width: 18rem;
-    padding: 0;
-    margin: 1rem 0;
-    display: flex;
-    justify-content: space-between;
+  list-style: none;
+  width: 18rem;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /***************************
@@ -62,8 +66,9 @@ FOOTER
 ****************************/
 
 footer {
-    font-size: 0.8rem;
-    text-align: center;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 /***************************
@@ -71,10 +76,10 @@ PAGE: ABOUT
 ****************************/
 
 .about-photo {
-    display: block;
-    margin: 0 auto 1rem;
-    width: 12rem;
-    border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+  width: 12rem;
+  border-radius: 50%;
 }
 
 /***************************
@@ -82,37 +87,45 @@ PAGE: PHOTOS
 ****************************/
 
 .photos img {
-    display: block;
-    width: 100%;
-    margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.by-sa {
+  height: 2rem;
 }
 
 /***************************
 PAGE: CONTACT
 ****************************/
 
+.contact h2 {
+  margin-bottom: 0.6rem;
+}
+
 .contact .column {
-    margin-right: 0.8rem;    
+  margin-right: 0.8rem;    
 }
 
 .contact-details,
 .me-elsewhere {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-    font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  font-size: 1.2rem;
 }
 
 .contact a {
-    display: flex;
-    align-items: center;
-    height: 2rem;
-    margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin-bottom: 0.6rem;
 }
 
 .contact a img {
-    width: 2rem;
-    margin-right: 0.7rem;
+  width: 2rem;
+  margin-right: 0.7rem;
 }
 
 /***************************
@@ -120,24 +133,24 @@ COLORS
 ****************************/
 
 body {
-    background-color: #181818;
-    color: #fff;
+  background-color: #181818;
+  color: #fff;
 }
 
 a {
-    color: #999;
+  color: #999;
 }
 
 header a {
-    color: #fff;
+  color: #fff;
 }
 
 nav a:hover {
-    color: #bbb;
+  color: #bbb;
 }
 
 .contact a {
-    color: #fff;
+  color: #fff;
 }
 
 /***************************
@@ -145,67 +158,71 @@ RESPONSIVE
 ****************************/
 
 @media (min-width: 1000px) {
-    /* GENERAL */
-
-    .main {
-        width: 80%;
-    }
-
-    /* HEADING */
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 4rem;
-        margin-bottom: 3.2rem;
-    }
-
-    h1.logo {
-        margin: 1rem;
-        font-size: 3.1rem;
-    }
-
-    /* NAVIGATION */
-
-    nav ul {
-        font-size: 1.7rem;
-        width: 20rem;
-    }
-
-    /* PAGE: ABOUT */
-
-    .about {
-        display: flex;
-        align-items: center;
-    }
-
-    .about-text {
-        flex: 1;
-    }
-
-    .about-photo {
-        margin-right: 3rem;
-        margin-bottom: 0;
-    }
-
-    /* PAGE: PHOTOS */
-
-    .photos {
-        display: flex;
-    }
-
-    .photos .column {
-        margin-right: 1rem;
-    }
-
-    /* PAGE: CONTACT */
-
-    .contact {
-        display: flex;
-    }
-
-    .contact .column {
-        flex: 1;
-    }
+  /* GENERAL */
+  
+  .main {
+    width: 80%;
+  }
+  
+  /* HEADING */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem 1rem;
+    margin-bottom: 3.2rem;
+  }
+  
+  .language {
+    padding-right: 4rem;
+  }
+  
+  h1.logo {
+    margin: 1rem;
+    font-size: 3.1rem;
+  }
+  
+  /* NAVIGATION */
+  
+  nav ul {
+    font-size: 1.7rem;
+    width: 20rem;
+  }
+  
+  /* PAGE: ABOUT */
+  
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-photo {
+    margin-right: 3rem;
+    margin-bottom: 0;
+  }
+  
+  /* PAGE: PHOTOS */
+  
+  .photos {
+    display: flex;
+  }
+  
+  .photos .column {
+    margin-right: 1rem;
+  }
+  
+  /* PAGE: CONTACT */
+  
+  .contact {
+    display: flex;
+  }
+  
+  .contact .column {
+    flex: 1;
+  }
 }

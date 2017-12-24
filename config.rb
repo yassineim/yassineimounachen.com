@@ -3,6 +3,7 @@ activate :autoprefixer do |prefix|
 end
 
 set :relative_links, true
+activate :i18n
 
 configure :build do
   activate :minify_css

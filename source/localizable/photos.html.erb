@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=en>
+  <%= partial :head, :locals => { :current_page => "Photos" } %>
+  <body>
+    <%= partial :header %>
+    <div class="main photos">
+      <div class="column">
+        <%
+          left_column_images = [
+            "mosque",
+            "guitar",
+            "sharks",
+            "bench",
+          ]
+        %>
+        <% left_column_images.each do |image| %>
+          <% link_to "images/full/" + image + ".jpg" do %>
+            <%= image_tag "images/medium/" + image + "-medium.jpg" %>
+          <% end %>
+        <% end %>
+      </div>
+      <div class="column">
+        <%
+          right_column_images = [
+            "sunset",
+            "contre-jour",
+            "fantasia",
+          ]
+        %>
+        <% right_column_images.each do |image| %>
+          <% link_to "images/full/" + image + ".jpg" do %>
+            <%= image_tag "images/medium/" + image + "-medium.jpg" %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <footer>
+      <% link_to "http://creativecommons.org/licenses/by-sa/4.0/" do %>
+        <%= image_tag "images/by-sa.png", :class => "by-sa", :alt => "Creative Commons" %>
+      <% end %>
+    </footer>
+  </body>
+</html>
