@@ -1,3 +1,3 @@
-# yassinei.me
+# yassineimounachen.com
 
-Yassine Imounachen's personal website.
+Yassine Imounachen's personal website
