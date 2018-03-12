@@ -4,15 +4,24 @@
   <body>
     <%= partial :header %>
     <div class="main photos">
+      <%
+        left_column_images = [
+          "guitar",
+          "sharks",
+          "bench",
+          "mosque",
+          "waterfall",
+        ]
+
+        right_column_images = [
+          "flower",
+          "contrejour",
+          "sunset",
+          "fantasia2",
+          "fantasia",
+        ]
+      %>
       <div class="column">
-        <%
-          left_column_images = [
-            "mosque",
-            "guitar",
-            "sharks",
-            "bench",
-          ]
-        %>
         <% left_column_images.each do |image| %>
           <% link_to "images/full/" + image + ".jpg" do %>
             <%= image_tag "images/medium/" + image + "-medium.jpg" %>
@@ -20,13 +29,6 @@
         <% end %>
       </div>
       <div class="column">
-        <%
-          right_column_images = [
-            "sunset",
-            "contre-jour",
-            "fantasia",
-          ]
-        %>
         <% right_column_images.each do |image| %>
           <% link_to "images/full/" + image + ".jpg" do %>
             <%= image_tag "images/medium/" + image + "-medium.jpg" %>
