@@ -96,6 +96,11 @@ PAGE: PHOTOS
   height: 2rem;
 }
 
+.photos .column {
+  flex: 1;
+}
+  
+
 /***************************
 PAGE: CONTACT
 ****************************/
@@ -214,6 +219,7 @@ RESPONSIVE
   
   .photos .column {
     margin-right: 1rem;
+    flex: 1;
   }
   
   /* PAGE: CONTACT */
@@ -223,6 +229,7 @@ RESPONSIVE
   }
   
   .contact .column {
+    margin-right: 1rem;
     flex: 1;
   }
 }
