@@ -125,12 +125,6 @@ PAGE: CONTACT
   margin-bottom: 0.6rem;
 }
 
-.contact a span[class^='fa-'],
-.contact a span[class*=' fa-'] {
-  width: 2rem;
-  margin-right: 0.7rem;
-}
-
 /***************************
 COLORS
 ****************************/
