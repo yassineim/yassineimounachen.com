@@ -125,7 +125,7 @@ PAGE: CONTACT
   margin-bottom: 0.6rem;
 }
 
-.contact a img {
+.contact a .icon {
   width: 2rem;
   margin-right: 0.7rem;
 }
