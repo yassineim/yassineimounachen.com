@@ -7,15 +7,15 @@
       <div class="column">
         <h2><%= t(:contact_details) %></h2>
         <ul class="contact-details">
-          <li class="phone">
+          <li>
             <% link_to "tel:+212661381453" do %>
-              <%= image_tag "images/phone.svg" %>
+              <span class="fas fa-phone"></span>
               <span>+212 6 61 38 14 53</span>
             <% end %>
           </li>
-          <li class="email">
+          <li>
             <% link_to "mailto:yassine.imounachen@gmail.com" do %>
-              <%= image_tag "images/envelope.svg" %>
+              <span class="fas fa-envelope"></span>
               <span>yassine.imounachen@gmail.com</span>
             <% end %>
           </li>
@@ -24,21 +24,21 @@
       <div class="column">
         <h2><%= t(:me_elsewhere) %></h2>
         <ul class="me-elsewhere">
-          <li class="github">
+          <li>
             <% link_to "https://github.com/yassineim" do %>
-              <%= image_tag "images/github.svg" %>
+              <span class="fab fa-github"></span>
               <span>yassineim</span>
             <% end %>
           </li>
-          <li class="linkedin">
+          <li>
             <% link_to "https://www.linkedin.com/in/yassineim" do %>
-              <%= image_tag "images/linkedin.svg" %>
+              <span class="fab fa-linkedin"></span>
               <span>yassineim</span>
             <% end %>
           </li>
-          <li class="twitter">
+          <li>
             <% link_to "https://twitter.com/yassineim" do %>
-              <%= image_tag "images/twitter.svg" %>
+              <span class="fab fa-twitter"></span>
               <span>yassineim</span>
             <% end %>
           </li>
