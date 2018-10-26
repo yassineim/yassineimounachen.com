@@ -3,7 +3,14 @@
 [[redirects]]
   from = "https://yassineimounachen.com/*"
   to = "https://yassine.im/:splat"
+  force = true
   
 [[redirects]]
   from = "https://www.yassineimounachen.com/*"
   to = "https://yassine.im/:splat"
+  force = true
+  
+[[redirects]]
+  from = "https://yassine-im.netlify.com/*"
+  to = "https://yassine.im/:splat"
+  force = true
