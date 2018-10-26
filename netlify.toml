@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "https://yassineimounachen.com/*"
+  to = "https://yassine.im/:splat"
+  
+[[redirects]]
+  from = "https://www.yassineimounachen.com/*"
+  to = "https://yassine.im/:splat"
