@@ -1,6 +1,0 @@
-# Redirect domain aliases to primary domain
-https://yassineimounachen.com/* https://yassine.im/:splat 301!
-https://www.yassineimounachen.com/* https://yassine.im/:splat 301!
-
-# Optional: Redirect default Netlify subdomain to primary domain
-https://yassine-im.netlify.com/* https://yassine.im/:splat 301!
