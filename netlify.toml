@@ -1,3 +1,5 @@
+[Settings]
+
 [[redirects]]
   from = "https://yassineimounachen.com/*"
   to = "https://yassine.im/:splat"
