@@ -8,9 +8,15 @@
         <h2><%= t(:contact_details) %></h2>
         <ul class="contact-details">
           <li>
+            <% link_to "tel:+19805520612" do %>
+              <span class="fas fa-phone"></span>
+              <span>+1-980-552-0612 (🇺🇸)</span>
+            <% end %>
+          </li>
+          <li>
             <% link_to "tel:+212661381453" do %>
               <span class="fas fa-phone"></span>
-              <span>+212 6 61 38 14 53</span>
+              <span>+212 6 61 38 14 53 (🇲🇦)</span>
             <% end %>
           </li>
           <li>
