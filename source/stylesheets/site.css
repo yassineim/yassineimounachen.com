@@ -7,7 +7,7 @@ GENERAL
 
 body {
   font-family: "Bitter", serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .main {
@@ -115,19 +115,19 @@ PAGE: CONTACT
   list-style: none;
   padding: 0;
   margin: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .contact a {
   display: flex;
   align-items: center;
-  height: 2rem;
-  margin-bottom: 0.6rem;
+  height: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact a span[class^='fa-'],
 .contact a span[class*=' fa-'] {
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: 2rem;
   margin-right: 0.7rem;
 }
@@ -185,13 +185,13 @@ RESPONSIVE
   
   h1.logo {
     margin: 1rem;
-    font-size: 3.1rem;
+    font-size: 2.8rem;
   }
   
   /* NAVIGATION */
   
   nav ul {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     width: 20rem;
   }
   
