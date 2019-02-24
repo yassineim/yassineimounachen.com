@@ -1,2 +1,2 @@
-set :relative_links, true
+set :relative_links, false
 activate :i18n
