@@ -2,7 +2,7 @@
 <html lang=en>
   <%= partial :head, :locals => { :current_page => "Photos" } %>
   <body>
-    <%= partial :header %>
+    <%= partial :header, :locals => { :current_page_file_name => "photos.html" } %>
     <div class="main photos">
       <%
         left_column_images = [
