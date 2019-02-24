@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang=en>
-  <%= partial :head, :locals => { :current_page => "About", :current_page_file => "" } %>
+  <%= partial :head, :locals => { :current_page => "About" } %>
   <body>
-    <%= partial :header %>
+    <%= partial :header, :locals => { :current_page_file_name => "" } %>
     <div class="main about">
       <%= image_tag "images/yassine.jpg", :alt => "Yassine Imounachen", :class => "about-photo" %>
       <div class="about-text">
