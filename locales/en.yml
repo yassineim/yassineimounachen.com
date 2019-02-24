@@ -4,4 +4,4 @@ en:
   me_elsewhere: "Find me on"
   contact_details: "Contact me"
   the_other_language: "français"
-  prefix_in_other_language: "/fr/"
+  other_language_prefix: "/fr/"
