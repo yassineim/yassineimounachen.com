@@ -1,13 +1,14 @@
 /***************************
 GENERAL
 ****************************/
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .main {
@@ -31,7 +32,7 @@ HEADING
 h1.logo {
   text-align: center;
   margin: 0.4rem 0;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 header {
@@ -46,7 +47,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 nav ul {
@@ -63,7 +64,7 @@ FOOTER
 ****************************/
 
 footer {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   margin-top: 1rem;
 }
@@ -93,11 +94,6 @@ PAGE: PHOTOS
   height: 2rem;
 }
 
-.photos .column {
-  flex: 1;
-}
-  
-
 /***************************
 PAGE: CONTACT
 ****************************/
@@ -125,8 +121,7 @@ PAGE: CONTACT
   margin-bottom: 0.5rem;
 }
 
-.contact a span[class^='fa-'],
-.contact a span[class*=' fa-'] {
+.contact a span {
   font-size: 1.8rem;
   width: 2rem;
   margin-right: 0.7rem;
@@ -185,13 +180,13 @@ RESPONSIVE
   
   h1.logo {
     margin: 1rem;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
   
   /* NAVIGATION */
   
   nav ul {
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 20rem;
   }
   
