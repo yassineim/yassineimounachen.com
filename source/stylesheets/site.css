@@ -6,7 +6,7 @@ GENERAL
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Bitter", serif;
   font-size: 1.1rem;
 }
 
@@ -92,11 +92,6 @@ PAGE: PHOTOS
 .by-sa {
   height: 2rem;
 }
-
-.photos .column {
-  flex: 1;
-}
-  
 
 /***************************
 PAGE: CONTACT
