@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang=en>
-  <%= partial :head, :locals => { :current_page => "Contact", :current_page_file => "contact.html" } %>
+  <%= partial :head, :locals => { :current_page => "Contact" } %>
   <body>
-    <%= partial :header %>
+    <%= partial :header, :locals => { :current_page_file_name => "contact.html" } %>
     <div class="main contact">
       <div class="column">
         <h2><%= t(:contact_details) %></h2>
