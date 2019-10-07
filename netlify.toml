@@ -1,0 +1,6 @@
+[Settings]
+
+[[redirects]]
+  from = "https://yassineimounachen-com.netlify.com/*"
+  to = "https://yassineimounachen.com/:splat"
+  force = true
