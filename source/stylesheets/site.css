@@ -47,7 +47,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 nav ul {
@@ -111,7 +111,7 @@ PAGE: CONTACT
   list-style: none;
   padding: 0;
   margin: 1rem 0;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .contact a {
